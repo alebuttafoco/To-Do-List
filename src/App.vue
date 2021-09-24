@@ -65,11 +65,19 @@ main {
     @media screen and (max-width: 991.98px) {
         margin-top: 0;
         margin-bottom: 0;
+        min-height: calc(100vh - 64px);
     }
 }
 
 main, .form-control, .btn {
     font-size: 1.2rem !important;
+}
+
+.tasks_box {
+    min-height: 80vh;
+    @media screen and (max-width: 991.98px) {
+        min-height: calc(100vh - 64px);
+    }
 }
 
 .my_btn {

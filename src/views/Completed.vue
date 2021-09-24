@@ -1,5 +1,5 @@
 <template>
-  <div class="tasks_box p-1 p-sm-2 p-md-3 p-lg-4 p-xl-5 bg-white shadow rounded h-100">
+  <div class="tasks_box p-1 p-sm-2 p-md-3 p-lg-4 p-xl-5 bg-white shadow rounded">
         <h4 class="border-start border-4 border-success ps-2 my-1">TASKS COMPLETATE</h4>
         <div @click="clearCompletedTasks()" class="my_btn btn-light w-100 border mb-2"> Svuota Lista </div>
 

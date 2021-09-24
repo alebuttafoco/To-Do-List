@@ -1,5 +1,5 @@
 <template>
- <div class="tasks_box p-1 p-sm-2 p-md-3 p-lg-4 p-xl-5 bg-white shadow rounded h-100">
+ <div class="tasks_box p-1 p-sm-2 p-md-3 p-lg-4 p-xl-5 bg-white shadow rounded">
      <!-- create task -->
     <div class="add_task d-flex mb-3">
         <input @keyup.enter="createTask()" type="text" class="flex-grow-1 text-center border-bottom border-3" :class=" checkTask() ? 'border-success' : 'border-danger' " placeholder="Aggiungi una nuova task 👇" v-model="task">
